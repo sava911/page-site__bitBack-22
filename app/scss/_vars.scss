@@ -1,0 +1,13 @@
+@mixin border($height) {
+    border-top: $height solid #E5E5E5;
+}
+
+%title {
+    font-size: 18px;
+    color: #3B3B3B;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+$green: #82B284;
+    

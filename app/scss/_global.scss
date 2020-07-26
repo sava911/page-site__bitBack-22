@@ -1,0 +1,21 @@
+.link {
+    position: relative;
+
+    font-family: 'proxima-nova';
+    color: $green;
+    text-decoration: none;
+
+    &::after {
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        right: 0;
+
+        content: '';
+        border-bottom: 1px solid $green;
+    }
+}
+
+.edit-icon {
+    cursor: pointer;
+}
